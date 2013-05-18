@@ -7,11 +7,11 @@ This class was made by others, here I just make a note.
 
 Usage:
 
-//  AppDelegate.m
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-#ifndef WS_DEBUG
-    InstallUncaughtExceptionHandler();
-#endif
+    //  AppDelegate.m
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
+    #ifndef WS_DEBUG
+        InstallUncaughtExceptionHandler();
+    #endif
     //......
-}
+    }
